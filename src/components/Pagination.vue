@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center space-x-4">
+  <div class="flex justify-center w-full items-center space-x-4">
     <!-- Previous -->
     <button
       @click="isFirstPage ? 0 : handlePagination(currentPage - 1)"

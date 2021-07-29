@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <div class="pl-36">
+    <div class="container mx-auto">
       <Character :characters="characters.results" @search="handleSearch" />
     </div>
     <div>

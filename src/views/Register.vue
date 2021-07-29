@@ -1,6 +1,6 @@
 <template>
   <div class="flex">
-    <div class="bg1 w-3/5 h-screen flex justify-end">
+    <div class="bg1 w-3/5 sm:hidden lg:flex flex justify-end">
       <router-link to="/login">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -11,14 +11,14 @@
         >
           <path
             stroke-linecap="round"
-            stroke-linejoin="round"
+            stroke-linejoin="ro und"
             stroke-width="2"
             d="M10 19l-7-7m0 0l7-7m-7 7h18"
           />
         </svg>
       </router-link>
     </div>
-    <div class="w-2/5 h-screen bg2 flex items-center flex-col">
+    <div class="lg:w-2/5 sm:w-full h-screen bg2 flex items-center flex-col">
       <div class="mt-16 mb-12">
         <img
           class="w-52 select-none"
@@ -201,7 +201,7 @@
             flex-col
             text-xs
             justify-end
-            pt-24
+            mt-24
             text-gray-300
             uppercase
           "

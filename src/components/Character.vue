@@ -31,16 +31,16 @@
     <!-- CARDS -->
     <div class="flex w-full flex-row flex-wrap">
       <!-- card-inner -->
-      <div class="flex flex-row w-full flex-wrap">
+      <div class="flex flex-row w-full flex-wrap ml-2">
         <!-- card -->
         <div
           v-for="char in characters"
           :key="char"
           class="
             flex flex-col
-            mr-12
             hover-img
             bg
+            mx-6
             w-1/6
             transform
             hover:scale-110
