@@ -134,3 +134,11 @@
   background-color: #2f9022;
 }
 </style>
+
+<script>
+export default {
+  created() {
+    this.$cookies.set('prueba', 'SHUEREK', Infinity);
+  },
+};
+</script>

@@ -4,7 +4,7 @@
       <router-link to="/">
         <button>
           <img
-            class="w-40 h-12"
+            class="w-40 h-12 select-none"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/2560px-Rick_and_Morty.svg.png"
             alt=""
           />
